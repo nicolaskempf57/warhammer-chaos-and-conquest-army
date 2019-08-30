@@ -1,8 +1,6 @@
 package fr.warhammerchaosandconquest.army.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Unit {
@@ -11,6 +9,7 @@ public class Unit {
     @GeneratedValue
     private int id;
     private String name;
+    @Enumerated(EnumType.STRING)
     private UnitType type;
 
     public int getId() {

@@ -18,7 +18,7 @@ public class UnitController {
     private UnitDao unitDao;
 
     @GetMapping(value = "units")
-    public List<Unit> unitsList () {
+    public Iterable<Unit> unitsList () {
         return unitDao.findAll();
     }
 
