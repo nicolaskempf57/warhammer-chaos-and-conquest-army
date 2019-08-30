@@ -1,11 +1,11 @@
 package fr.warhammerchaosandconquest.army.model;
 
 public enum UnitType {
-    warBeast,
-    montruousBeast,
-    monstruousInfantry,
-    monster,
-    infantry,
-    cavalry,
-    chariot
+    WAR_BEAST,
+    MONSTRUOUS_BEAST,
+    MONSTRUOUS_INFRANTRY,
+    MONSTER,
+    INFANTRY,
+    CAVALRY,
+    CHARIOT
 }
